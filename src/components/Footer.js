@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {SocialIcon} from 'react-social-icons';
+import '../css/footer.css'
 function Footer(props) {
   return (
     <div className="footer">
@@ -13,17 +14,14 @@ function Footer(props) {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/aboutus">About Us</Link>
+                <Link to="/news">News</Link>
               </li>
               <li>
-                <Link to="/menu">Menu</Link>
-              </li>
-              <li>
-                <Link to="/contactus">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
-          <div className="col-7 col-sm-5">
+          <div  id ="address"className="col-7 col-sm-5">
             <h5>Our Address</h5>
             <address>
               121, Clear Water Bay Road
@@ -42,39 +40,15 @@ function Footer(props) {
           </div>
           <div className="col-12 col-sm-4 align-self-center">
             <div className="text-center">
-              <a
-                className="btn btn-social-icon btn-google"
-                href="http://google.com/+"
-              >
-                <i className="fa fa-google-plus" />
-              </a>
-              <a
-                className="btn btn-social-icon btn-facebook"
-                href="http://www.facebook.com/profile.php?id="
-              >
-                <i className="fa fa-facebook" />
-              </a>
-              <a
-                className="btn btn-social-icon btn-linkedin"
-                href="http://www.linkedin.com/in/"
-              >
-                <i className="fa fa-linkedin" />
-              </a>
-              <a
-                className="btn btn-social-icon btn-twitter"
-                href="http://twitter.com/"
-              >
-                <i className="fa fa-twitter" />
-              </a>
-              <a
-                className="btn btn-social-icon btn-google"
-                href="http://youtube.com/"
-              >
-                <i className="fa fa-youtube" />
-              </a>
-              <a className="btn btn-social-icon" href="mailto:">
-                <i className="fa fa-envelope-o" />
-              </a>
+            <h5>Connect With Us</h5>
+            <SocialIcon url="https://www.linkedin.com/in/amarjeet-singh-14776a121/" /> &nbsp;
+            <SocialIcon network="twitter" bgColor="#ff5a01" /> &nbsp;
+            <SocialIcon url="https://www.facebook.com/amarjeet.singh.9887" /> &nbsp;
+            <SocialIcon url="https://www.instagram.com/amarjeet_09/?hl=en" /> &nbsp;
+            <SocialIcon url="http://youtube.com/in/" /> &nbsp;
+
+
+
             </div>
           </div>
         </div>

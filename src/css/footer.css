@@ -1,3 +1,8 @@
-.main-footer{
-    background: gray;
+.footer{
+    background: black;
+    color: azure;
+}
+
+#address{
+    color: azure;
 }

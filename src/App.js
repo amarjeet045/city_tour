@@ -6,8 +6,11 @@ import Contact from './components/Contact';
 import HeaderNavigation from './components/HederNavigation';
 import Footer from './components/Footer';
 
-
 class App extends Component {
+  constructor(props){
+    super(props);
+    
+  }
   render() {
     return (
       <>
