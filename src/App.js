@@ -5,7 +5,7 @@ import News from './components/News';
 import Contact from './components/Contact';
 import HeaderNavigation from './components/HederNavigation';
 import Footer from './components/Footer';
-import {CITY} from './shared/assets/data';
+import {CITY} from './shared/data';
 
 class App extends Component {
   constructor(props){
