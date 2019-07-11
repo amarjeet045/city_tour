@@ -5,6 +5,7 @@ import News from './components/News';
 import Contact from './components/Contact';
 import HeaderNavigation from './components/HederNavigation';
 import Footer from './components/Footer';
+import CityDetail from './components/CityDetail';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path ="/news" component={News} />
           <Route path ="/contact" component={Contact} />
           <Route path = "/footer" component={Footer} />
+          <Route path ="/city" component={CityDetail}/>
         </Switch>
         
         <Footer/>

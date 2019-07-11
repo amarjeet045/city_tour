@@ -12,6 +12,8 @@ class HederNavigation extends Component {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/news">News</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/City">City Detail</Nav.Link>
+
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
