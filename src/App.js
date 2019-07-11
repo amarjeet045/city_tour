@@ -5,16 +5,10 @@ import News from './components/News';
 import Contact from './components/Contact';
 import HeaderNavigation from './components/HederNavigation';
 import Footer from './components/Footer';
-import {CITY} from './shared/data';
+
 
 class App extends Component {
-  constructor(props){
-    super(props);
-    this.state ={
-      City:CITY
-    }
-    
-  }
+  
   render() {
     return (
       <>
@@ -26,7 +20,7 @@ class App extends Component {
           <Route path ="/contact" component={Contact} />
           <Route path = "/footer" component={Footer} />
         </Switch>
-        <Home City ={this.state.City}/>
+        
         <Footer/>
        
       </Router>

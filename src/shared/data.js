@@ -67,7 +67,7 @@ export const CITY = [
         id:10,
         name :'Osaka',
         country:'Japan',
-        images:'./images/osaka.jpg',
+        images:'assets/image/osaka.jpg',
         description:'Osaka is a large port city and commercial center on the Japanese island of Honshu. It is known for its modern architecture, nightlife and hearty street food. The 16th-century shogunate Osaka Castle, which has undergone several restorations, is its main historical landmark. It is surrounded by a moat and park with plum, peach and cherry-blossom trees. Sumiyoshi-taisha is among Japan’s oldest Shinto shrines.'
     },
     
