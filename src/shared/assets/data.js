@@ -1,4 +1,4 @@
-export const PlaceInfo = [
+export const CITY = [
     {
         id:1,
         name :'London',
